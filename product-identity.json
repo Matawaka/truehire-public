@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "artifact": "TRUEHIRECanonicalIdentityReceipt",
+  "canonical_identity": {
+    "product_id": "truehire",
+    "name": "TRUEHIRE",
+    "repository": "Matawaka/truehire",
+    "package_name": "truehire"
+  },
+  "origin_frontier": {
+    "repository": "Matawaka/truehire",
+    "main_sha_before_reconciliation": "10323ecc5641f96b134dbb96da1bfbdbb2a7d6cc"
+  },
+  "historical_materialized_aliases": [
+    {
+      "alias_id": "honest-hiring",
+      "alias_name": "Честный найм",
+      "relationship": "historical_materialized_alias",
+      "source_repository": "Matawaka/uu-aap",
+      "source_path": "products/honest-hiring/v0.1/product-contract.json",
+      "source_contract_hash": "sha256:796580b9a4dc3eb9f7b7bd9215ed1b9379182786caeafbdb15fada4353f1d2ae",
+      "distinct_product_created": false,
+      "historical_artifact_rewritten": false
+    }
+  ],
+  "assertions": {
+    "canonical_name_is_truehire": true,
+    "canonical_product_id_is_truehire": true,
+    "historical_alias_preserved": true,
+    "alias_correction_preserves_provenance": true,
+    "uu_aap_product_contract_remains_historical_evidence": true
+  },
+  "non_effects": {
+    "repository_visibility_changed": false,
+    "historical_uu_aap_contract_modified": false,
+    "runtime_behavior_modified": false,
+    "candidate_data_processed": false,
+    "employment_decision_authority_created": false,
+    "external_effect_authorized": false
+  }
+}

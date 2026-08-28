@@ -1,0 +1,278 @@
+{
+  "artifact": "TRUEHIREPublicProjectionReceipt",
+  "version": "0.1",
+  "source_repository": "Matawaka/truehire",
+  "source_revision": "f3d687c8185c68d05c075bafe63d11a2e5397262",
+  "source_tree": "7b1bf231a1bb1d2223720d7551cd73baa715356d",
+  "origin_frontier": "e8dcb08d1cd2d34e41e077950af18a60263b6e6a",
+  "manifest_version": "0.1",
+  "target_repository_suggestion": "Matawaka/truehire-public",
+  "projection_mode": "explicit_allowlist_with_generated_replacements",
+  "license_state": "GRANTED_BY_HUMAN_AUTHORIZATION",
+  "license_policy": {
+    "software": "Apache-2.0",
+    "non_software": "CC-BY-4.0",
+    "third_party_material": "OWN_APPLICABLE_LICENSES",
+    "human_approval_recorded": true,
+    "authorization_receipt": "release/public-authorization/v0.2/authorization.json",
+    "canonical_status_transferred_by_reuse": false
+  },
+  "publication_authority": {
+    "state": "AUTHORIZED_FOR_DETERMINISTIC_PUBLIC_PROJECTION",
+    "target_repository": "Matawaka/truehire-public",
+    "private_repository_must_remain_private": true,
+    "private_history_export_authorized": false,
+    "deployment_authorized": false
+  },
+  "file_count_excluding_receipt": 45,
+  "file_count_excluding_receipts": 45,
+  "projection_root": "sha256:41be1d4f43f16e7b10f7d4242e782651d326632efe4e56369de40051abb1351e",
+  "files": [
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "sha256:b4b3e8b3e73ea8f8b43dc525229cc8ed91d2bcc487ce8677519cb1aa90c50aa4",
+      "bytes": 161
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "sha256:b2a4482faa5a9e572b9edcaeb798e7455fe85029410b2a01c81596aaed557c04",
+      "bytes": 35111
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "sha256:a9da977d548b7f8bdb2570363158bd14b3e626192ee49f413158e14fe669d8a9",
+      "bytes": 1426
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "sha256:876dc689db65cc6ea7052f01c671cb1046195ae7a6ebfc9fd4efe02464fc100d",
+      "bytes": 48975
+    },
+    {
+      "path": "docs/BACKLOG.md",
+      "sha256": "sha256:ab9f35532f1c56785c0653c985df7a2daaa3355e0ddca9d3fe3447eb1b17a0e4",
+      "bytes": 11212
+    },
+    {
+      "path": "docs/LICENSE-DECISION.md",
+      "sha256": "sha256:878c7f3aab63b0769882634429724b93e3405aa1c0421c7b89dca80ff987d1be",
+      "bytes": 2921
+    },
+    {
+      "path": "docs/NEED-CARD-VAULT.md",
+      "sha256": "sha256:edccb37518318f0d151e19e0f7a412aefc56e4cc22ba00bdd70fff7b4a5cd2b0",
+      "bytes": 4881
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "sha256:da20d0d1ea22206c149c5576f18296af31c36f372fd63da4f5ba65ec0ee0c06d",
+      "bytes": 1380
+    },
+    {
+      "path": "docs/PUBLIC-DATA-SECURITY-BOUNDARY.md",
+      "sha256": "sha256:6fdef3133db13c19a165431c72408f7e1cc8f9f3fae1fceda4801cb74d8267e0",
+      "bytes": 5143
+    },
+    {
+      "path": "docs/PUBLIC-PROJECTION-BOUNDARY.md",
+      "sha256": "sha256:262a4df0a26a61a89d47146ec93617f72fd97231ffec7d6f1dba604bcc7c48a7",
+      "bytes": 5270
+    },
+    {
+      "path": "docs/PUBLIC-RELEASE-AUTHORIZATION.md",
+      "sha256": "sha256:389382419096ea58d030ae7cc4db6f356565a713dce8bd6c9d11ca5a3e4feaab",
+      "bytes": 2726
+    },
+    {
+      "path": "docs/RESPONSIBILITY.md",
+      "sha256": "sha256:17890f87e30c13759a73425cbae3241a543d19e9b03e60e3707a7be47abae0f0",
+      "bytes": 5907
+    },
+    {
+      "path": "docs/TERMINOLOGY.md",
+      "sha256": "sha256:645094a0662afb8869081aba279b66c71eef9998419dcfb23e7194a29d83dc8e",
+      "bytes": 2773
+    },
+    {
+      "path": "docs/THIRD-PARTY-LICENSE-INVENTORY.json",
+      "sha256": "sha256:21e4a8e72f20e72e200144a0a1fd65671d17a53ac091d2f0ebe27776325df0bd",
+      "bytes": 1549
+    },
+    {
+      "path": "docs/THIRD-PARTY-SOURCE-PUBLICATION-BOUNDARY.md",
+      "sha256": "sha256:f5e9b1a4c3c9e7e7f538bab9372d6ef11dcc4964a67844a24a7ab76871d65ebc",
+      "bytes": 2858
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "sha256:5c697206f302dadc0c8b7b2f7a707257dab15129a2149872b0f84ea1ac17d263",
+      "bytes": 345
+    },
+    {
+      "path": "lib/business-people-plan.test.ts",
+      "sha256": "sha256:8c4f2f98a1a294e6a8bb2afab6ecf1dc16a8f805d9830d43f5c3b2e1c558fa85",
+      "bytes": 1559
+    },
+    {
+      "path": "lib/business-people-plan.ts",
+      "sha256": "sha256:88df2dce322b62f9b0bc49e7ef041d6b0975a77bbbd00a346ccf18d27c69e9b6",
+      "bytes": 5612
+    },
+    {
+      "path": "lib/connection-contour.test.ts",
+      "sha256": "sha256:c656ea48b7069ae691bbebfe7ddfcab789a132356e673cbe1c546f8eac9a8e84",
+      "bytes": 3520
+    },
+    {
+      "path": "lib/connection-contour.ts",
+      "sha256": "sha256:4b5d0c9b83246eeefcd3aa1247f01b6445750cde5bf7b50893bed284710c27fb",
+      "bytes": 10225
+    },
+    {
+      "path": "lib/context-manual.test.ts",
+      "sha256": "sha256:ec75657f287c69810a3682c809ab8a37ce6a63ad5c707f58cd76f34042cb8b6f",
+      "bytes": 821
+    },
+    {
+      "path": "lib/context-manual.ts",
+      "sha256": "sha256:9c84406c4f2fc5230f95d9c3f8ff42e1c9571cb3a937de875b8e4d3e3d39a52f",
+      "bytes": 11176
+    },
+    {
+      "path": "lib/demo-data-policy.test.ts",
+      "sha256": "sha256:261631c59887e76e5a0aca0eb87dc9aff04f0ca7fb82e67029bc7fdaa0479a41",
+      "bytes": 908
+    },
+    {
+      "path": "lib/demo-data-policy.ts",
+      "sha256": "sha256:a4ab230e6a16cb98c819e8b39b57da6969b7e6cd46da0cd7fe91074e14f04a08",
+      "bytes": 511
+    },
+    {
+      "path": "lib/need-card-core.test.ts",
+      "sha256": "sha256:0e6b3ecab778d20055e755be070ac2e77e1e21fdf775505d28e6ffa21971b0fc",
+      "bytes": 1949
+    },
+    {
+      "path": "lib/need-card-core.ts",
+      "sha256": "sha256:cda3edaab08b766d21a28630f362ce63bf00a36aa6c763ad212ccac35c1cd2e9",
+      "bytes": 4510
+    },
+    {
+      "path": "lib/russian-terminology.test.ts",
+      "sha256": "sha256:530ea946c5f54c7c233080d506d37991a2be655cbfacbd54118251644ceb3f6c",
+      "bytes": 1416
+    },
+    {
+      "path": "lib/russian-terminology.ts",
+      "sha256": "sha256:cbbf6164e4f96afc006836f7d4339efeaf1ea7e7c976a1d106a062832098cfc6",
+      "bytes": 1800
+    },
+    {
+      "path": "lib/uu-aap-decision-core.test.ts",
+      "sha256": "sha256:782091b862c69844e7a15fc14a55e48252358d89ec8993c47796a39df0c7d04d",
+      "bytes": 2062
+    },
+    {
+      "path": "lib/uu-aap-decision-core.ts",
+      "sha256": "sha256:9b11e22df0387b5abc00a74c4c7dc5ef1dc329be154ebebea7178a8ae723df8f",
+      "bytes": 7475
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "sha256:a8109a57a9f442ac762312649a84d644d04cfdd76e5061bbd8bc71a5fdd8ee27",
+      "bytes": 5272
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "sha256:fcf63783be4c94f4e9826106f37e049f8a19f7a38d64e3a229d75a6fe4f35b7a",
+      "bytes": 10278
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "sha256": "sha256:df89f64cafc458840c8e7281f5cc8645d464a5ecdd99761f6347b4b31a52d6ff",
+      "bytes": 17008
+    },
+    {
+      "path": "next-env.d.ts",
+      "sha256": "sha256:217ce9348b523c3e6954fb50bb93364b58781d86742c995f3a5b03ba88b9ba72",
+      "bytes": 284
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "sha256:d063bebef3a4878ae82f9f9547c2c9675b8b6945ab23702932dcb63a011a9fc9",
+      "bytes": 104
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "sha256:d754a052d0199614d146f99bb5ec278ed80d17f48854ea2f968fe2eafed2a17b",
+      "bytes": 3535
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "sha256:946addbd132e5f4b9256b91397fbffe7b9876740590b1484bb1e1301713461e3",
+      "bytes": 348806
+    },
+    {
+      "path": "package.json",
+      "sha256": "sha256:4fe28c820ba4ab1de50a9291bc770608cd64e05a7e25aba4b5fb179f12da850c",
+      "bytes": 1076
+    },
+    {
+      "path": "product-identity.json",
+      "sha256": "sha256:59d20ef5990249ad47690608983ee31c1d9fd73f11ab6c73c6e864deb48afc73",
+      "bytes": 1440
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "sha256:e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+      "bytes": 712
+    },
+    {
+      "path": "public/og.svg",
+      "sha256": "sha256:41e2cdec95c138ad18ac1dc0f02e49249a44e21ca15f99ca222a9856967e46f7",
+      "bytes": 1693
+    },
+    {
+      "path": "README.md",
+      "sha256": "sha256:88addaff31ade02f0b1ceb86a443295c7cda48e54788b8d0112dc0790613789a",
+      "bytes": 8441
+    },
+    {
+      "path": "tools/generate-third-party-license-inventory.mjs",
+      "sha256": "sha256:f6760201e0cea5cd060445ce2d0c81951072de3222e1eeb5483fbf5c28a58c33",
+      "bytes": 2292
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "sha256:0518b5a613caaff145f0cdda356b16e8b0032c0b8fdfdd01c11e58b39e609f5d",
+      "bytes": 758
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "sha256:0388f7be4819d7e40a8957c845ab1bbbcfde6e42cbfb506bfe55af7558a23c63",
+      "bytes": 1810
+    }
+  ],
+  "assertions": {
+    "explicit_allowlist_used": true,
+    "private_hosting_identity_not_copied": true,
+    "historical_opaque_og_not_copied": true,
+    "projection_asset_is_text_reviewable": true,
+    "source_publication_boundary_documented": true,
+    "exact_license_texts_present": true,
+    "license_grant_present": true,
+    "public_repository_creation_authorized": true,
+    "private_repository_must_remain_private": true,
+    "private_history_not_exported": true
+  },
+  "non_effects": {
+    "private_repository_visibility_changed": false,
+    "public_repository_created": false,
+    "private_history_rewritten": false,
+    "deployment_changed": false,
+    "candidate_data_processed": false,
+    "employment_decision_performed": false,
+    "external_action_performed": false
+  }
+}

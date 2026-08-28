@@ -1,0 +1,48 @@
+{
+  "artifact": "TRUEHIREThirdPartyLicenseInventorySummary",
+  "version": "0.1",
+  "origin_frontier": "adc941fc117ef4266e8748c67a579ff737c5add8",
+  "source": {
+    "lockfile": "package-lock.json",
+    "git_blob_sha": "3e08602d6635ff66986b4b45d8aed9a7d9e45045",
+    "lockfile_version": 3,
+    "sha256": "sha256:946addbd132e5f4b9256b91397fbffe7b9876740590b1484bb1e1301713461e3"
+  },
+  "package_count": 648,
+  "missing_license_metadata": 0,
+  "license_expressions": {
+    "0BSD": 1,
+    "Apache-2.0": 55,
+    "Apache-2.0 AND LGPL-3.0-or-later": 6,
+    "Apache-2.0 AND LGPL-3.0-or-later AND MIT": 3,
+    "BlueOak-1.0.0": 1,
+    "BSD-2-Clause": 10,
+    "BSD-3-Clause": 5,
+    "CC-BY-4.0": 1,
+    "CC0-1.0": 2,
+    "ISC": 20,
+    "LGPL-3.0-or-later": 20,
+    "MIT": 491,
+    "MIT OR Apache-2.0": 4,
+    "MPL-2.0": 28,
+    "Python-2.0": 1
+  },
+  "review_state": {
+    "metadata_inventory_complete": true,
+    "compatibility_review_complete": false,
+    "repository_license_selected": true,
+    "repository_license_granted": true,
+    "binary_distribution_compliance": "PENDING_PER_RELEASE"
+  },
+  "repository_license_policy": {
+    "software": "Apache-2.0",
+    "non_software": "CC-BY-4.0",
+    "third_party_material": "OWN_APPLICABLE_LICENSES",
+    "authorization_receipt": "release/public-authorization/v0.2/authorization.json"
+  },
+  "non_claims": [
+    "metadata_inventory_is_not_legal_compatibility_review",
+    "dependency_license_inventory_is_not_repository_license_grant",
+    "repository_license_grant_is_not_binary_distribution_compliance"
+  ]
+}
